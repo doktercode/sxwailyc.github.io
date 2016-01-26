@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: npl
+categories: java开发
 ---
 
 ## Empty npl tutorial template
