@@ -3,6 +3,10 @@ layout: post
 comments: true
 categories: lucene
 ---
+
+* content
+{:toc}
+
 ## lucene 中如何更新docment
 
 ## 根据ID删除对应的doc
