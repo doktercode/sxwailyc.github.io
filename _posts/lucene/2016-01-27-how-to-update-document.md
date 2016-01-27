@@ -7,8 +7,7 @@ categories: lucene
 
 
 
-```Java
-indexWriter.deleteDocuments(NumericRangeQuery.newIntRange("id", id, id, true, true));
-indexWriter.addDocument(doc);
-```
+	indexWriter.deleteDocuments(NumericRangeQuery.newIntRange("id", id, id, true, true));
+	indexWriter.addDocument(doc);
+
 
