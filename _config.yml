@@ -29,6 +29,6 @@ disqus_url: "http://sxwailyc.github.io"
 markdown: kramdown
 
 # highlight
-#highlighter: pygments
-highlighter: rouge
+highlighter: pygments
+# highlighter: rouge
 # highlighter: false
