@@ -18,8 +18,8 @@ viewsourceroot: https://github.com/sxwailyc/sxwailyc.github.io/blob/master/
 newsourceroot: https://github.com/sxwailyc/sxwailyc.github.io/new/master
 #########################################
 # for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
-#duoshuo_shortname: sxwailyc
-#duoshuo_url: "http://naike.org"
+duoshuo_shortname: sxwailyc
+duoshuo_url: "http://naike.org"
 # disqus.com commenting system. please note that it is exclusive with duoshuo.com
 disqus_shortname: sxwailyc
 disqus_url: "http://sxwailyc.github.io"
