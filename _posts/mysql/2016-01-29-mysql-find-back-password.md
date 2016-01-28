@@ -9,7 +9,10 @@ categories: mysql
 
 ## mysql找回帐号密码
 
-### 1 停止运行的mysql: /etc/init.d/mysql stop
+### 1 停止运行的mysql:
+
+    /etc/init.d/mysql stop
+
 
 ### 2 使用 skip-grant-tables 这个选项启动mysql
 
