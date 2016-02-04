@@ -2,30 +2,30 @@
 layout: post
 comments: true
 categories: mysql
-title: mysql如何更改数据目录
+title: ubuntu下更改mysql数据目录
 ---
 
 * content
 {:toc}
 
-## 1. 创建新的数据目录
+#### 1. 创建新的数据目录
 
     mkdir -p /data/mysql
 
-## 2. 复制原有数据
+#### 2. 复制原有数据
 
     cp -R /var/lib/mysql/* /data/mysql
 
-## 修改权限
+#### 3. 修改权限
 
     chown -R mysql:mysql /data/mysql
 
-## 修改配置文件
+#### 4. 修改配置文件
 
     vi /etc/mysql/my/cnf
     datadir = /data/mysql
 
-## 修改启动文件
+#### 5. 修改启动文件
 
     vi /etc/apparmor.d/usr/sbin/mysqld
     #把
@@ -35,7 +35,7 @@ title: mysql如何更改数据目录
     /data/mysql r,
 	/data/mysql/** rwk,
 	
-## 重启服务
+#### 5. 重启服务
 	
     /etc/init.d/apparmor restart
     /etc/init.d/mysql restart 
