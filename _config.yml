@@ -29,6 +29,6 @@ duoshuo_url: "http://naike.org"
 markdown: kramdown
 
 # highlight
-highlighter: pygments
+highlighter: rouge
 # highlighter: rouge
 # highlighter: false
