@@ -31,7 +31,7 @@ title: ubuntu下更改mysql数据目录
     #把
     /var/lib/mysql r,
     /var/lib/mysql/** rwk,
-	改成
+	#改成
     /data/mysql r,
 	/data/mysql/** rwk,
 	
