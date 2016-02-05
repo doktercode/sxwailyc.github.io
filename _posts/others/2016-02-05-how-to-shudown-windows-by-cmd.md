@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: mysql
+categories: others
 title: windows 用cmd命令关闭电脑
 ---
 
