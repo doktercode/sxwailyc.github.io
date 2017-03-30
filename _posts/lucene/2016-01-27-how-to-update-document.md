@@ -17,3 +17,18 @@ categories: lucene
 	indexWriter.addDocument(doc);
 
 
+测试
+
+	public static void main(String[] args){
+	   
+	    System.out.println("hello world");
+	    
+	}
+	
+	
+测试2
+
+```
+public 
+
+```
