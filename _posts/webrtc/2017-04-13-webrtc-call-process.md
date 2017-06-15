@@ -8,10 +8,10 @@ categories: webrtc
 {:toc}
 
 Imagine Alice is trying to call Eve. Here's the full offer/answer mechanism in all its gory detail:
->  Alice creates an RTCPeerConnection object.
->  客户端[Alice]创建一个RTCPeerConnection对象
-> Alice creates an offer (an SDP session description) with the RTCPeerConnection createOffer() method.
->  客户端[Alice]通过RTCPeerConnection.createOffer方法创建一个Offer[^Offer](一个SDP[^SDP]会话描述)
+1.  Alice creates an RTCPeerConnection object.  
+1.  客户端[Alice]创建一个RTCPeerConnection对象  
+-  Alice creates an offer (an SDP session description) with the RTCPeerConnection createOffer() method.
+-  客户端[Alice]通过RTCPeerConnection.createOffer方法创建一个Offer[^Offer](一个SDP[^SDP]会话描述)
 >  Alice calls setLocalDescription() with his offer.
 > 客户端[Alice]调用offer上的 setLocalDescription方法
 >  Alice stringifies the offer and uses a signaling mechanism to send it to Eve.
